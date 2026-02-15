@@ -105,7 +105,7 @@
         <h1>🔍 Database Connection Test</h1>
         
         <?php
-        require_once '../src/includes/config.php';
+        require_once './config.php';
         
         // Test 1: PHP Configuration
         echo '<div class="test-section info">';
