@@ -14,14 +14,14 @@
 4. Click "Go" to import
 
 **OR** you can create database automatically:
-- Visit: http://localhost/IndianNGOWebsite/IndianNGOWebsite/setup.php
+- Visit: http://localhost/IndianNGOWebsite/setup.php
 - This will create database "om" and all tables with sample data
 - **IMPORTANT**: Delete or rename `setup.php` after running it for security
 
 ### Step 3: Access the Website
 Open your browser and go to:
 ```
-http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php
+http://localhost/IndianNGOWebsite/index.php
 ```
 
 ### Step 4: Test Login
@@ -33,8 +33,8 @@ http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php
 
 ### Website Not Loading
 - Check if Apache is running in XAMPP
-- Check URL is correct: `http://localhost/IndianNGOWebsite/IndianNGOWebsite/`
-- Check if PHP files are in: `C:\xampp\htdocs\IndianNGOWebsite\IndianNGOWebsite\`
+- Check URL is correct: `http://localhost/IndianNGOWebsite/`
+- Check if PHP files are in: `C:\xampp\htdocs\IndianNGOWebsite\`
 
 ### Database Connection Error
 1. Check MySQL is running in XAMPP
@@ -85,7 +85,8 @@ IndianNGOWebsite/
 ├── register.php            # User registration
 ├── logout.php              # Logout
 │
-└── style.css               # Styles
+└── css/
+   └── style.css           # Styles
 ```
 
 ## Features

@@ -7,9 +7,9 @@ A comprehensive web-based platform for managing NGO operations, donations, volun
 **Database Name:** `om` (configured and ready)
 
 1. **Start XAMPP**: Open XAMPP Control Panel → Start Apache & MySQL
-2. **Test Connection**: Visit http://localhost/IndianNGOWebsite/IndianNGOWebsite/test_connection.php
-3. **Setup Database**: Visit http://localhost/IndianNGOWebsite/IndianNGOWebsite/setup.php
-4. **Access Website**: Visit http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php
+2. **Test Connection**: Visit http://localhost/IndianNGOWebsite/test_connection.php
+3. **Setup Database**: Visit http://localhost/IndianNGOWebsite/setup.php
+4. **Access Website**: Visit http://localhost/IndianNGOWebsite/index.php
 5. **Login**: admin@ngo.com / admin123
 
 📖 **Need help?** See [START_HERE.md](START_HERE.md) for detailed instructions.
@@ -76,17 +76,18 @@ IndianNGOWebsite/
 ├── db_connection.php             # Database connection and helper functions
 ├── auth.php                      # Authentication and session management
 ├── setup.php                     # Database initialization script
+├── test_connection.php           # Database connection test
 │
 ├── index.php                     # Home page with featured NGOs
 ├── about.php                     # About the platform
 ├── ngos.php                      # List all NGOs
-├── ngo_detail.php               # Individual NGO details
+├── ngo_detail.php                # Individual NGO details
 ├── projects.php                  # List all projects
 ├── donate.php                    # Donation form
 ├── volunteers.php                # Volunteer registration and opportunities
 ├── products.php                  # Product catalog
 ├── cart.php                      # Shopping cart
-├── add_to_cart.php              # Add product to cart
+├── add_to_cart.php               # Add product to cart
 ├── checkout.php                  # Checkout process
 ├── order_confirmation.php        # Order confirmation
 ├── contact.php                   # Contact form
@@ -95,8 +96,10 @@ IndianNGOWebsite/
 ├── register.php                  # User registration
 ├── logout.php                    # User logout
 │
-├── style.css                     # Custom CSS styles
-└── README.md                     # This file
+├── css/
+│   └── style.css                 # Custom CSS styles
+└── docs/                         # Documentation
+   └── README.md                 # This file
 ```
 
 ## Database Schema
@@ -170,13 +173,13 @@ IndianNGOWebsite/
      define('DB_HOST', 'localhost');
      define('DB_USER', 'root');
      define('DB_PASS', '');
-     define('DB_NAME', 'indian_ngo_db');
+   define('DB_NAME', 'om');
      ```
 
 3. **Initialize Database**
    - Open your browser and navigate to:
      ```
-     http://localhost/IndianNGOWebsite/IndianNGOWebsite/setup.php
+   http://localhost/IndianNGOWebsite/setup.php
      ```
    - The script will create all necessary tables and insert sample data
    - You should see a success message
@@ -185,7 +188,7 @@ IndianNGOWebsite/
 4. **Start the Application**
    - Navigate to the home page:
      ```
-     http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php
+   http://localhost/IndianNGOWebsite/index.php
      ```
 
 ## Usage Guide

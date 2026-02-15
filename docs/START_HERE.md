@@ -23,7 +23,7 @@ Your website isn't loading because **Apache and MySQL are not started**.
 ### 2. Test Connection
 After starting services, open your browser:
 ```
-http://localhost/IndianNGOWebsite/IndianNGOWebsite/test_connection.php
+http://localhost/IndianNGOWebsite/test_connection.php
 ```
 
 This will show if everything is working.
@@ -31,14 +31,14 @@ This will show if everything is working.
 ### 3. Create Database
 If test shows database doesn't exist:
 ```
-http://localhost/IndianNGOWebsite/IndianNGOWebsite/setup.php
+http://localhost/IndianNGOWebsite/setup.php
 ```
 
 This creates the "om" database with all tables and sample data.
 
 ### 4. Access Website
 ```
-http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php
+http://localhost/IndianNGOWebsite/index.php
 ```
 
 ---
@@ -151,12 +151,12 @@ After starting XAMPP, use these URLs:
 
 | Page | URL |
 |------|-----|
-| Test Connection | http://localhost/IndianNGOWebsite/IndianNGOWebsite/test_connection.php |
-| Setup Database | http://localhost/IndianNGOWebsite/IndianNGOWebsite/setup.php |
-| Home Page | http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php |
-| NGOs | http://localhost/IndianNGOWebsite/IndianNGOWebsite/ngos.php |
-| Donate | http://localhost/IndianNGOWebsite/IndianNGOWebsite/donate.php |
-| Login | http://localhost/IndianNGOWebsite/IndianNGOWebsite/login.php |
+| Test Connection | http://localhost/IndianNGOWebsite/test_connection.php |
+| Setup Database | http://localhost/IndianNGOWebsite/setup.php |
+| Home Page | http://localhost/IndianNGOWebsite/index.php |
+| NGOs | http://localhost/IndianNGOWebsite/ngos.php |
+| Donate | http://localhost/IndianNGOWebsite/donate.php |
+| Login | http://localhost/IndianNGOWebsite/login.php |
 | phpMyAdmin | http://localhost/phpmyadmin |
 
 ---
@@ -192,7 +192,7 @@ Your project is now properly configured with:
 
 **Next Step:** Open XAMPP Control Panel and start Apache + MySQL!
 
-Then visit: http://localhost/IndianNGOWebsite/IndianNGOWebsite/test_connection.php
+Then visit: http://localhost/IndianNGOWebsite/test_connection.php
 
 ---
 
@@ -202,7 +202,7 @@ Then visit: http://localhost/IndianNGOWebsite/IndianNGOWebsite/test_connection.p
 - **Admin Email**: admin@ngo.com
 - **Admin Password**: admin123
 - **XAMPP Location**: C:\xampp\
-- **Website Location**: C:\xampp\htdocs\IndianNGOWebsite\IndianNGOWebsite\
+- **Website Location**: C:\xampp\htdocs\IndianNGOWebsite\
 
 ---
 

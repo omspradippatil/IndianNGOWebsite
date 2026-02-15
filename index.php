@@ -8,11 +8,14 @@ $current_user = getCurrentUser();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian NGO Management System - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-home">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.php"><i class="bi bi-house-heart"></i> Indian NGO MS</a>
@@ -63,12 +66,68 @@ $current_user = getCurrentUser();
         </div>
     </nav>
 
-    <section class="hero text-center">
+    <section class="hero-home">
+        <div class="hero-bg" aria-hidden="true">
+            <span class="hero-orb orb-1"></span>
+            <span class="hero-orb orb-2"></span>
+            <span class="hero-orb orb-3"></span>
+            <span class="hero-grid"></span>
+        </div>
         <div class="container">
-            <h1>Welcome to Indian NGO Management System</h1>
-            <p class="lead">Empowering communities across India through education, healthcare, women empowerment, and rural development.</p>
-            <a href="donate.php" class="btn btn-light btn-lg">Donate Now</a>
-            <a href="volunteers.php" class="btn btn-outline-light btn-lg ms-2">Become a Volunteer</a>
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="hero-tag">Transparent giving • Local impact</div>
+                    <h1>Build brighter futures with India’s most trusted NGO network.</h1>
+                    <p class="hero-lead">Support verified causes, track impact, and join a community that turns generosity into measurable change.</p>
+                    <div class="hero-actions">
+                        <a href="donate.php" class="btn btn-hero-primary">Donate Now</a>
+                        <a href="volunteers.php" class="btn btn-hero-ghost">Become a Volunteer</a>
+                    </div>
+                    <div class="hero-trust">
+                        <div>
+                            <div class="trust-value">500+</div>
+                            <div class="trust-label">Trusted NGOs</div>
+                        </div>
+                        <div>
+                            <div class="trust-value">100k+</div>
+                            <div class="trust-label">Lives Impacted</div>
+                        </div>
+                        <div>
+                            <div class="trust-value">₹10Cr+</div>
+                            <div class="trust-label">Funds Delivered</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-panel">
+                        <div class="panel-header">Impact Snapshot</div>
+                        <div class="panel-item">
+                            <div>
+                                <div class="panel-title">Education Kits</div>
+                                <div class="panel-note">Rural Maharashtra</div>
+                            </div>
+                            <div class="panel-value">8,240</div>
+                        </div>
+                        <div class="panel-item">
+                            <div>
+                                <div class="panel-title">Health Camps</div>
+                                <div class="panel-note">Uttar Pradesh</div>
+                            </div>
+                            <div class="panel-value">312</div>
+                        </div>
+                        <div class="panel-item">
+                            <div>
+                                <div class="panel-title">Women Trained</div>
+                                <div class="panel-note">Karnataka</div>
+                            </div>
+                            <div class="panel-value">4,560</div>
+                        </div>
+                        <div class="panel-footer">
+                            Updated weekly from partner NGOs.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -116,25 +175,33 @@ $current_user = getCurrentUser();
         </div>
     </section>
 
-    <section class="py-5" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white;">
+    <section class="impact-band">
         <div class="container text-center">
             <h2 class="mb-4">Our Impact</h2>
-            <div class="row">
-                <div class="col-md-3 mb-4">
-                    <div class="display-4 fw-bold">500+</div>
-                    <p>NGOs Supported</p>
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="impact-stat">
+                        <div class="stat-value">500+</div>
+                        <div class="stat-label">NGOs Supported</div>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="display-4 fw-bold">100k+</div>
-                    <p>Lives Impacted</p>
+                <div class="col-6 col-md-3">
+                    <div class="impact-stat">
+                        <div class="stat-value">100k+</div>
+                        <div class="stat-label">Lives Impacted</div>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="display-4 fw-bold">₹10Cr+</div>
-                    <p>Funds Distributed</p>
+                <div class="col-6 col-md-3">
+                    <div class="impact-stat">
+                        <div class="stat-value">₹10Cr+</div>
+                        <div class="stat-label">Funds Distributed</div>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="display-4 fw-bold">5000+</div>
-                    <p>Active Volunteers</p>
+                <div class="col-6 col-md-3">
+                    <div class="impact-stat">
+                        <div class="stat-value">5000+</div>
+                        <div class="stat-label">Active Volunteers</div>
+                    </div>
                 </div>
             </div>
         </div>

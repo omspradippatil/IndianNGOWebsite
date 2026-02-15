@@ -11,7 +11,7 @@
  * =====================
  * 
  * Option A: Using setup.php (Recommended)
- * 1. Open http://localhost/IndianNGOWebsite/IndianNGOWebsite/setup.php in browser
+ * 1. Open http://localhost/IndianNGOWebsite/setup.php in browser
  * 2. Wait for success message
  * 3. Delete setup.php for security
  * 
@@ -38,10 +38,10 @@
  * ==========================
  * 
  * Home Page:
- * http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php
+ * http://localhost/IndianNGOWebsite/index.php
  * 
  * Register New Account:
- * http://localhost/IndianNGOWebsite/IndianNGOWebsite/register.php
+ * http://localhost/IndianNGOWebsite/register.php
  * 
  * Test Credentials (after setup):
  * - Register as new user
@@ -258,12 +258,12 @@ Go to login.php and login with:
         <h1 class="text-center mb-5">Indian NGO Management System - Quick Start Guide</h1>
         
         <div class="guide-section">
-            <h2>✅ Step 1: Database Setup</h2>
+            <h2>âœ… Step 1: Database Setup</h2>
             <div class="step">
                 <h5>Option A: Automatic Setup (Recommended)</h5>
                 <ol>
                     <li>Open your browser and navigate to:
-                        <div class="code">http://localhost/IndianNGOWebsite/IndianNGOWebsite/setup.php</div>
+                        <div class="code">http://localhost/IndianNGOWebsite/setup.php</div>
                     </li>
                     <li>Wait for the success message</li>
                     <li>Delete setup.php from your server for security</li>
@@ -280,7 +280,7 @@ Go to login.php and login with:
         </div>
         
         <div class="guide-section">
-            <h2>⚙️ Step 2: Configure Database</h2>
+            <h2>âš™ï¸ Step 2: Configure Database</h2>
             <p>Edit <code>config.php</code> with your database credentials:</p>
             <div class="code">
                 define('DB_HOST', 'localhost');<br>
@@ -291,16 +291,16 @@ Go to login.php and login with:
         </div>
         
         <div class="guide-section">
-            <h2>🌐 Step 3: Access the Website</h2>
+            <h2>ðŸŒ Step 3: Access the Website</h2>
             <ul>
-                <li><strong>Home:</strong> http://localhost/IndianNGOWebsite/IndianNGOWebsite/</li>
-                <li><strong>Register:</strong> http://localhost/IndianNGOWebsite/IndianNGOWebsite/register.php</li>
-                <li><strong>Login:</strong> http://localhost/IndianNGOWebsite/IndianNGOWebsite/login.php</li>
+                <li><strong>Home:</strong> http://localhost/IndianNGOWebsite/</li>
+                <li><strong>Register:</strong> http://localhost/IndianNGOWebsite/register.php</li>
+                <li><strong>Login:</strong> http://localhost/IndianNGOWebsite/login.php</li>
             </ul>
         </div>
         
         <div class="guide-section">
-            <h2>🧪 Step 4: Test Features</h2>
+            <h2>ðŸ§ª Step 4: Test Features</h2>
             <div class="row">
                 <div class="col-md-6">
                     <h5>User Features</h5>
@@ -342,21 +342,21 @@ Go to login.php and login with:
         </div>
         
         <div class="guide-section">
-            <h2>🔐 Security Checklist</h2>
+            <h2>ðŸ” Security Checklist</h2>
             <ul>
-                <li>✓ Delete or disable setup.php after initialization</li>
-                <li>✓ Keep config.php secure</li>
-                <li>✓ Use HTTPS in production</li>
-                <li>✓ Keep PHP and MySQL updated</li>
-                <li>✓ Use strong passwords</li>
-                <li>✓ Regular database backups</li>
-                <li>✓ Input validation for all forms</li>
-                <li>✓ Sanitize all database queries</li>
+                <li>âœ“ Delete or disable setup.php after initialization</li>
+                <li>âœ“ Keep config.php secure</li>
+                <li>âœ“ Use HTTPS in production</li>
+                <li>âœ“ Keep PHP and MySQL updated</li>
+                <li>âœ“ Use strong passwords</li>
+                <li>âœ“ Regular database backups</li>
+                <li>âœ“ Input validation for all forms</li>
+                <li>âœ“ Sanitize all database queries</li>
             </ul>
         </div>
         
         <div class="guide-section">
-            <h2>📊 Available Pages</h2>
+            <h2>ðŸ“Š Available Pages</h2>
             <div class="table-responsive">
                 <table class="table">
                     <thead>
@@ -433,7 +433,7 @@ Go to login.php and login with:
         </div>
         
         <div class="guide-section">
-            <h2>🆘 Troubleshooting</h2>
+            <h2>ðŸ†˜ Troubleshooting</h2>
             <div class="mb-3">
                 <h5>Database Connection Error</h5>
                 <p>Check if MySQL is running and verify credentials in config.php</p>
@@ -448,12 +448,12 @@ Go to login.php and login with:
             </div>
             <div class="mb-3">
                 <h5>Donation Not Saved</h5>
-                <p>Check all required fields are filled and amount is ≥ ₹100</p>
+                <p>Check all required fields are filled and amount is â‰¥ â‚¹100</p>
             </div>
         </div>
         
         <div class="guide-section alert alert-info">
-            <h4>📖 For Complete Documentation</h4>
+            <h4>ðŸ“– For Complete Documentation</h4>
             <p>Please refer to <strong>README.md</strong> for comprehensive documentation.</p>
         </div>
     </div>

@@ -24,9 +24,9 @@ You have TWO options:
 
 #### Option A: Automatic (Recommended)
 1. Open browser
-2. Go to: `http://localhost/IndianNGOWebsite/IndianNGOWebsite/test_connection.php`
+2. Go to: `http://localhost/IndianNGOWebsite/test_connection.php`
 3. This will test your connection
-4. Then go to: `http://localhost/IndianNGOWebsite/IndianNGOWebsite/setup.php`
+4. Then go to: `http://localhost/IndianNGOWebsite/setup.php`
 5. This creates database "om" automatically
 6. **IMPORTANT**: Delete setup.php after running it
 
@@ -39,7 +39,7 @@ You have TWO options:
 ### Step 4: Access Website
 Open browser and go to:
 ```
-http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php
+http://localhost/IndianNGOWebsite/index.php
 ```
 
 ### Step 5: Login
@@ -65,7 +65,7 @@ http://localhost/IndianNGOWebsite/IndianNGOWebsite/index.php
 **Fix:**
 - Check file path is correct
 - Files must be in: `C:\xampp\htdocs\IndianNGOWebsite\IndianNGOWebsite\`
-- Use correct URL: `http://localhost/IndianNGOWebsite/IndianNGOWebsite/`
+- Use correct URL: `http://localhost/IndianNGOWebsite/`
 
 ### Error: Blank White Page
 **Fix:**

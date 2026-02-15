@@ -39,17 +39,17 @@
 - `order_confirmation.php` - Order confirmation
 
 ### Styling
-- `style.css` - Custom CSS styles
+- `css/style.css` - Custom CSS styles
 
 ### Documentation
-- `README.md` - Project overview and features
-- `START_HERE.md` - Setup and troubleshooting guide ⭐ READ THIS FIRST
-- `INSTALLATION.md` - Detailed installation instructions
-- `QUICKFIX.md` - Quick troubleshooting guide
-- `QUICKSTART.php` - Quick reference guide
+- `docs/README.md` - Project overview and features
+- `docs/START_HERE.md` - Setup and troubleshooting guide ⭐ READ THIS FIRST
+- `docs/INSTALLATION.md` - Detailed installation instructions
+- `docs/QUICKFIX.md` - Quick troubleshooting guide
+- `docs/QUICKSTART.md` - Quick reference guide
 
 ### Helper Scripts
-- `check_xampp.bat` - Check if XAMPP services are running
+- `docs/check_xampp.bat` - Check if XAMPP services are running
 
 ---
 
@@ -118,7 +118,7 @@ DB_HOST = 'localhost'
 DB_USER = 'root'
 DB_PASS = ''
 DB_NAME = 'om'
-SITE_URL = 'http://localhost/IndianNGOWebsite/IndianNGOWebsite/'
+SITE_URL = 'http://localhost/IndianNGOWebsite/'
 ```
 
 ---
@@ -170,7 +170,7 @@ When you run `setup.php` or import `database.sql`:
 - `setup.php` - Auto-setup script (~8KB)
 - `config.php` - Configuration (~0.5KB)
 - `db_connection.php` - Connection functions (~2KB)
-- `style.css` - Styling (~variable size)
+- `css/style.css` - Styling (~variable size)
 
 ---
 
