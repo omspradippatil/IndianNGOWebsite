@@ -2,6 +2,10 @@
 
 A comprehensive web-based platform for managing NGO operations, donations, volunteer management, and e-commerce for social causes.
 
+## 🌐 Live Demo
+
+**[https://indianngowebsite.ct.ws/](https://indianngowebsite.ct.ws/)**
+
 ## 🚀 QUICK START
 
 **Database Name:** `om` (configured and ready)
