@@ -2,21 +2,21 @@
 
 A comprehensive web-based platform for managing NGO operations, donations, volunteer management, and e-commerce for social causes.
 
-## 🌐 Live Demo
+##  Live Demo
 
 **[https://indianngowebsite.ct.ws/](https://indianngowebsite.ct.ws/)**
 
-## 🚀 QUICK START
+##  QUICK START
 
 **Database Name:** `om` (configured and ready)
 
-1. **Start XAMPP**: Open XAMPP Control Panel → Start Apache & MySQL
+1. **Start XAMPP**: Open XAMPP Control Panel  Start Apache & MySQL
 2. **Test Connection**: Visit http://localhost/IndianNGOWebsite/test_connection.php
 3. **Setup Database**: Visit http://localhost/IndianNGOWebsite/setup.php
 4. **Access Website**: Visit http://localhost/IndianNGOWebsite/index.php
 5. **Login**: admin@ngo.com / admin123
 
-📖 **Need help?** See [START_HERE.md](START_HERE.md) for detailed instructions.
+ **Need help?** See [START_HERE.md](START_HERE.md) for detailed instructions.
 
 ## Features
 
@@ -76,34 +76,34 @@ A comprehensive web-based platform for managing NGO operations, donations, volun
 
 ```
 IndianNGOWebsite/
-├── config.php                    # Database and site configuration
-├── db_connection.php             # Database connection and helper functions
-├── auth.php                      # Authentication and session management
-├── setup.php                     # Database initialization script
-├── test_connection.php           # Database connection test
-│
-├── index.php                     # Home page with featured NGOs
-├── about.php                     # About the platform
-├── ngos.php                      # List all NGOs
-├── ngo_detail.php                # Individual NGO details
-├── projects.php                  # List all projects
-├── donate.php                    # Donation form
-├── volunteers.php                # Volunteer registration and opportunities
-├── products.php                  # Product catalog
-├── cart.php                      # Shopping cart
-├── add_to_cart.php               # Add product to cart
-├── checkout.php                  # Checkout process
-├── order_confirmation.php        # Order confirmation
-├── contact.php                   # Contact form
-│
-├── login.php                     # User login
-├── register.php                  # User registration
-├── logout.php                    # User logout
-│
-├── css/
-│   └── style.css                 # Custom CSS styles
-└── docs/                         # Documentation
-   └── README.md                 # This file
+ config.php                    # Database and site configuration
+ db_connection.php             # Database connection and helper functions
+ auth.php                      # Authentication and session management
+ setup.php                     # Database initialization script
+ test_connection.php           # Database connection test
+
+ index.php                     # Home page with featured NGOs
+ about.php                     # About the platform
+ ngos.php                      # List all NGOs
+ ngo_detail.php                # Individual NGO details
+ projects.php                  # List all projects
+ donate.php                    # Donation form
+ volunteers.php                # Volunteer registration and opportunities
+ products.php                  # Product catalog
+ cart.php                      # Shopping cart
+ add_to_cart.php               # Add product to cart
+ checkout.php                  # Checkout process
+ order_confirmation.php        # Order confirmation
+ contact.php                   # Contact form
+
+ login.php                     # User login
+ register.php                  # User registration
+ logout.php                    # User logout
+
+ css/
+    style.css                 # Custom CSS styles
+ docs/                         # Documentation
+    README.md                 # This file
 ```
 
 ## Database Schema
@@ -369,3 +369,14 @@ Developed as a comprehensive solution for Indian NGO management and coordination
 
 **Last Updated**: January 2024
 **Current Version**: 1.0.0
+
+---
+
+##  Contact the Developer
+
+**Developed by OM Patil**
+
+- **Portfolio**: [ompradippatil.netlify.app](https://ompradippatil.netlify.app/)
+- **GitHub**: [@omspradippatil](https://github.com/omspradippatil)
+- **LinkedIn**: [OM Pradip Patil](https://in.linkedin.com/in/om-pradip-patil)
+- **Email**: [omspradippatil@gmail.com](mailto:omspradippatil@gmail.com)
